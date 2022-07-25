@@ -5,7 +5,7 @@ public class Test implements Serializable {
     @Save
     private String str1 = "Save this string";
     @Save
-    private String str2 = "And save this string";
+    private Integer str2 = 777;
     private String dstr = "Don't save this string";
     private String path = "serialization.txt";
 
